@@ -1,1 +1,3 @@
-console.log('working browser')
+const lever = document.getElementById('slotMachine')
+
+
