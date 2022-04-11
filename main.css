@@ -36,29 +36,35 @@ p{
 
  .slotMachine {
     max-width:100px;
-     height: 100px;
+     height: 200px;
      margin: 125px auto;
      display: flex;
      justify-content: relative;
-     /* border: solid; */
-  
- }
+    
+    }
+    
+    /* .border {
+        border: 5px solid white;  
+        border-width: 5px;
+        
+       } */
+ 
 
 
 #lever {
     justify-content: center;
-    margin-left: 270px;
+    margin-left: 400px;
+    float: left;
     /* border-radius: 30%; */
     /* border: 5px; */
     border-radius: 40%;
     /* border: none; */
-    padding-left: 50px;
+    padding-left: 80px;
     padding: 30px;  
     font-size: 40px;
     font-family: 'Rye', cursive;
     box-shadow: 50px;
     background-color: rgb(255, 215, 0);
-    
-
-    
+  
 }
+
