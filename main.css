@@ -1,10 +1,8 @@
 * {
-    /* margin: 100; */
-    /* padding: 100; */
-    /* justify-content: center; */
-    /* background-size: cover; */
-    box-sizing: border-box;
+   
+    /* box-sizing: border-box; */
     justify-content: center;
+
 }
 
 h1 {
@@ -31,42 +29,46 @@ body {
     /* background-repeat:no-repeat;
     background-size: cover; */
  }  
-p{
+p {
     text-align: center;
     color: rgba(255, 217, 0, 0.795);
+    /* border: solid ; */
+    
 }
 
  .slotMachine {
-    max-width:100px;
-     height: 200px;
-     margin: 125px auto;
+    max-width:200px;
+     height: 300px;
+     margin: 15px auto ;
      display: flex;
      justify-content: relative;
 
     }
-    
-    /* .border {
-        border: 5px solid white;  
-        border-width: 5px;
-        
-       } */
- 
-
-
 #lever {
     justify-content: center;
-    margin-left: 400px;
+    margin-left: 870px;
     float: left;
     /* border-radius: 30%; */
     /* border: 5px; */
     border-radius: 40%;
     /* border: none; */
-    padding-left: 80px;
+    /* padding-left: 80px; */
     padding: 30px;  
     font-size: 40px;
     font-family: 'Rye', cursive;
     box-shadow: 50px;
     background-color: rgb(255, 215, 0);
   
+}
+
+.winner {
+    font-size: 150px;
+    color: red;
+    -webkit-text-stroke: 5px rgba(102, 255, 0, 0.795);
+    justify-content: center;
+    padding: 20px 20px 50px 650px;
+    /* display: hidden; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 

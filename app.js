@@ -5,8 +5,10 @@ const square = document.querySelectorAll('.slot')
 const item1 = document.getElementById('slot1')
 const item2 = document.getElementById('slot2')
 const item3 = document.getElementById('slot3')
-const winningDiv = document.querySelector('.winner')
+const winnerDiv = document.querySelector('.winner')
+const loserDiv = document.querySelector('.loser')
 //images in the array
+let game = false
 let cherryHTML = "<img src=\"https://cdn3.iconfinder.com/data/icons/slot-machine-symbols-filled-outline/256/cherry-512.png\" width=\"150px\" height=\"150px\">"
 let sevenHTML = "<img src=\"https://cdn3.iconfinder.com/data/icons/slot-machine-symbols-filled-outline/256/7-512.png\" width=\"150px\" height=\"150px\">"
 let barHTML = "<img src=\"https://cdn3.iconfinder.com/data/icons/slot-machine-symbols-filled-outline/256/bar-512.png\" width=\"150px\" height=\"150px\">"
@@ -24,8 +26,8 @@ let j = 1;
 //shuffle pictures 'how many' times
 const delay = 10;
 //50 miliseconds between each cycle
-const speed = 50;
-//stackoverflow- http://jsfiddle.net/Curt/rjve4whe/1/ 
+const speed = 40;
+//stackoverflow(recursive function)- http://jsfiddle.net/Curt/rjve4whe/1/ 
 function shufflePicture() {
     console.log('shuffle picture')
     setTimeout(function () {
@@ -53,15 +55,17 @@ lever.addEventListener('click', () => {
     setTimeout(function () {
         //win statement
         if(item1.innerHTML == item2.innerHTML && item2.innerHTML == item3.innerHTML){
-            winningDiv.innerHTML = 'WINNER!'
+            winnerDiv.innerHTML = 'WINNER!'
             console.log('You win!')
             }else{
             console.log('You lose')
+
         }
-    }, delay * (speed +100))
+    }, delay * (speed +10))
  
 })
 //display "winner"/Loser
+winnerDiv.classList.remove('hidden')
 
 
 
