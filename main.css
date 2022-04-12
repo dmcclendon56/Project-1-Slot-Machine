@@ -28,6 +28,8 @@ body {
     padding: 0px;
     /* display: flex; 
     align-items: center;  */
+    /* background-repeat:no-repeat;
+    background-size: cover; */
  }  
 p{
     text-align: center;
@@ -40,7 +42,7 @@ p{
      margin: 125px auto;
      display: flex;
      justify-content: relative;
-    
+
     }
     
     /* .border {
