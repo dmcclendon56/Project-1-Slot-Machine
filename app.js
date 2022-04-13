@@ -5,10 +5,9 @@ const square = document.querySelectorAll('.slot')
 const item1 = document.getElementById('slot1')
 const item2 = document.getElementById('slot2')
 const item3 = document.getElementById('slot3')
-const winnerDiv = document.querySelector('.winner')
+const winnerDiv = document.getElementById('winner')
 const loserDiv = document.querySelector('.loser')
 //images in the array
-let game = false
 let cherryHTML = "<img src=\"https://cdn3.iconfinder.com/data/icons/slot-machine-symbols-filled-outline/256/cherry-512.png\" width=\"150px\" height=\"150px\">"
 let sevenHTML = "<img src=\"https://cdn3.iconfinder.com/data/icons/slot-machine-symbols-filled-outline/256/7-512.png\" width=\"150px\" height=\"150px\">"
 let barHTML = "<img src=\"https://cdn3.iconfinder.com/data/icons/slot-machine-symbols-filled-outline/256/bar-512.png\" width=\"150px\" height=\"150px\">"
@@ -40,6 +39,7 @@ function shufflePicture() {
             shufflePicture();
         }
     }, speed)
+    winnerDiv.classList.add('hidden')
 };
 
 //array to call on for shuffle function
@@ -54,8 +54,10 @@ lever.addEventListener('click', () => {
     shufflePicture();
     setTimeout(function () {
         //win statement
-        if(item1.innerHTML == item2.innerHTML && item2.innerHTML == item3.innerHTML){
-            winnerDiv.innerHTML = 'WINNER!'
+        if(item1.innerHTML == item2.innerHTML && item2.innerHTML == item3.innerHTML)
+
+            {
+            winnerDiv.classList.remove('hidden')
             console.log('You win!')
             }else{
             console.log('You lose')
@@ -65,7 +67,7 @@ lever.addEventListener('click', () => {
  
 })
 //display "winner"/Loser
-winnerDiv.classList.remove('hidden')
 
+// item1.innerHTML == item2.innerHTML && item2.innerHTML == item3.innerHTML
 
 
