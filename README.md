@@ -1,6 +1,10 @@
 # Project-1-Slot-Machine
 
-#This is a basic penny slot machine with 3 "variables" that are cycled through. How to WIN-  get all 3 tiles to be the same image || 2 images are the same with BAR image. 
+# A basic penny slot machine with 3 "variables" that are cycled through. How to WIN-  get 3 of a kind. 
 
-![img of slot tiles](https://casinochap.com/wp-content/uploads/standard-slot-machine-symbols.jpg.webp)
+HTML/CSS/JS
+
+
+![img of slot tiles]()![Screen Shot 2022-04-12 at 9 07 24 PM](https://user-images.githubusercontent.com/101522627/163087912-e34c5dd9-5d0c-4d71-a013-fbb899b1af6d.png)
+
 
