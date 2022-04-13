@@ -7,7 +7,6 @@ A classic take on the penny slot machine. Press the 'spin' button to reveal matc
 -CSS
 -JS
 
-
 ![img of slot tiles](https://user-images.githubusercontent.com/101522627/163087912-e34c5dd9-5d0c-4d71-a013-fbb899b1af6d.png)
 
 
