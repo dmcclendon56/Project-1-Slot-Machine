@@ -20,6 +20,6 @@ A classic take on the penny slot machine. Press the 'spin' button to reveal matc
 - add animation and sound to mimic a slot machine. Pull a handle/spin the wheel/"payment"
 - additional slots
 - more ways to win (additional combonations)
-- theme
+- themes
 
 ![JS functions](https://user-images.githubusercontent.com/101522627/163189767-f2148ceb-1e7c-465c-aeab-b183f9b39efd.png)
